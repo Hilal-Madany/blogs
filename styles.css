@@ -14,24 +14,12 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
+    padding: 2rem 0;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 1rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+.logo img {
+    width: 200px; /* Adjust size as needed */
 }
 
 main {
@@ -39,12 +27,47 @@ main {
 }
 
 section {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+.contact-details p {
+    margin-bottom: 1rem;
+}
+
+.arrows img {
+    display: block;
+    width: 50px; /* Adjust size as needed */
+    margin-bottom: 1rem;
 }
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem 0;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+.social-media ul {
+    list-style-type: none;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.social-media ul li:last-child {
+    margin-right: 0;
 }
